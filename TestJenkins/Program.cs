@@ -20,5 +20,10 @@ namespace TestJenkins
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+
+        public static string GetMessage()
+        {
+            return "Test message";
+        }
     }
 }
