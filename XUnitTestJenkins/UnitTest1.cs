@@ -9,7 +9,7 @@ namespace XUnitTestJenkins
         [Fact]
         public void Test1()
         {
-            Assert.Equal("Test message", Program.GetMessage());
+            Assert.Equal("Test messa", Program.GetMessage());
         }
     }
 }
